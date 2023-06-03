@@ -98,13 +98,13 @@
 
 .u-section-2 .u-image-1 {
   min-height: 406px;
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-7.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-7.png");
   background-position: 50% 50%;
 }
 
 .u-section-2 .u-image-2 {
   min-height: 406px;
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image.png");
   background-position: 65.26% 50%;
 }
 
@@ -217,19 +217,19 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/Screenshot_cf_audi_r10_tdi_rt_suzuka_22-0-122-11-44-37.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/Screenshot_cf_audi_r10_tdi_rt_suzuka_22-0-122-11-44-37.jpg");
   min-height: 421px;
   background-position: 69.91% 50%;
 }
 
 .u-section-3 .u-image-3 {
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/Screenshot_cf_bmw_z4_gt3_ks_nordschleife_23-3-123-22-42-2.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/Screenshot_cf_bmw_z4_gt3_ks_nordschleife_23-3-123-22-42-2.jpg");
   min-height: 295px;
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-image-4 {
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-6.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-6.png");
   min-height: 298px;
   background-position: 50% 50%;
 }
@@ -241,21 +241,21 @@
 }
 
 .u-section-3 .u-image-5 {
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-4.png");
+  background-image:  linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-4.png");
   min-height: 298px;
   background-position: 47.16% 47.38%;
   background-size: auto 140%;
 }
 
 .u-section-3 .u-image-6 {
-  background-image: url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-15.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://assets.nicepagecdn.com/12ce6827/5044193/images/image-15.png");
   min-height: 437px;
   background-position: 65.23% 54.16%;
   background-size: auto 155%;
 }
 
 .u-section-3 .u-image-7 {
-  background-image: url('images/Screenshot_cf_ferrari_296_gt3_ks_nordschleife_2-5-123-21-6-39.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/Screenshot_cf_ferrari_296_gt3_ks_nordschleife_2-5-123-21-6-39.jpg');
   min-height: 458px;
   background-position: 58.48% 50%;
 }
