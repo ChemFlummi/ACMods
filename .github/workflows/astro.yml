@@ -58,15 +58,17 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/pnpm-lock.yaml
+      - name: Setup pnpm
+        run: npm install -g pnpm
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.runner }} ${{ steps.detect-package-manager.outputs.command }}
+        run: pnpm install
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: |
-          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+          pnpm astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
